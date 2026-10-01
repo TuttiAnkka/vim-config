@@ -130,13 +130,24 @@ nnoremap <leader>rl :source ~/.vimrc<CR>
 
 " Open vim config in new tab
 nnoremap <leader>lc :tabnew ~/.vimrc<CR>
+nnoremap <leader>c :e ~/.vimrc<CR>
 
 " LSP mappings
 nnoremap gd :tab LspGotoDefinition<CR>
 nnoremap gD :tab LspGotoDeclaration<CR>
 nnoremap <leader>qf :LspAutoFix<CR>
+nnoremap H :LspHover<CR>
 
 " Tabs
 nnoremap <leader>o :tabedit 
+nnoremap <C-j> gT
+nnoremap <C-k> gt
 
+" Netrw 
+" - go up one directory
+" % create a new file
+" D delete a file
+" R rename a file
+
+nnoremap <leader>sf :Explore<CR>
 
