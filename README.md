@@ -1,7 +1,7 @@
-Used plugins:
+# Plugins
 
-yegappan lsp
-polyglot
-airline + airline-themes
-highlightedyank
-gitgutter
+- yegappan lsp
+- polyglot
+- airline + airline-themes
+- highlightedyank
+- gitgutter
